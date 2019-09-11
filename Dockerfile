@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -yq netcat mtr zsh httpie dnsutils inetuti
 RUN apt-get update && apt-get install -yq vim nano
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq tcpdump tshark
 RUN apt-get update && apt-get install -yq git subversion
-RUN apt-get update && apt-get install -yq python groovy nodejs npm net-tools vim nano tcpdump tshark git
+RUN apt-get update && apt-get install -yq python groovy nodejs npm
 
 RUN apt-get clean
 
